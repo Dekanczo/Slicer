@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Program.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.1-preview1" />
+      <PackageReference Include="SkiaSharp" Version="2.88.0-preview.266" />
+    </ItemGroup>
+
+</Project>
